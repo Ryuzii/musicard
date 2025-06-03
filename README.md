@@ -1,4 +1,4 @@
-# musicard
+# musicalcard
 
 Generate beautiful music cards for Discord bots and more! Supports multiple styles: classic, classic-adv, dynamic, and more.
 
@@ -9,12 +9,12 @@ Generate beautiful music cards for Discord bots and more! Supports multiple styl
 
 ## Install
 ```sh
-npm install musicard
+npm install musicalcard
 ```
 
 ## Usage
 ```js
-const { generateClassicCard, generateClassicAdvCard, generateDynamicCard } = require('musicard');
+const { generateClassicCard, generateClassicAdvCard, generateDynamicCard } = require('musicalcard');
 const fs = require('fs');
 
 const buffer = await generateClassicCard({
