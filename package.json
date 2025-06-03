@@ -1,0 +1,50 @@
+{
+  "name": "musicard",
+  "version": "0.1.0",
+  "description": "Generate beautiful, customizable music cards for Discord bots, web apps, and more. Supports multiple styles (classic, classic-adv, dynamic) and platform icons (Spotify, YouTube, SoundCloud, Apple Music, etc.)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "music",
+    "card",
+    "discord",
+    "canvas",
+    "spotify",
+    "youtube",
+    "soundcloud",
+    "applemusic",
+    "music card",
+    "musicard",
+    "dynamic",
+    "classic",
+    "image",
+    "generator",
+    "web",
+    "bot",
+    "customizable"
+  ],
+  "author": "Ryuzii",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ryuzii/musicard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ryuzii/musicard/issues"
+  },
+  "homepage": "https://github.com/Ryuzii/musicard#readme"
+}
